@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/rpatel/.berkshelf/cookbooks/accounts-0.1.4'
+let g:netrw_dirhist_2='/Users/rpatel/.berkshelf/cookbooks/or_accounts-0.0.16'
+let g:netrw_dirhist_3='/srv/or_iframes-cookbook'
+let g:netrw_dirhist_4='/srv/river/bin'
+let g:netrw_dirhist_5='/Users/rpatel/.berkshelf/cookbooks/apache2-1.6.0'
+let g:netrw_dirhist_6='/srv/or-social/.grunt'
+let g:netrw_dirhist_7='/srv/pentaho/mondrian-3.3.0.14703'
+let g:netrw_dirhist_8='/Users/rpatel/.bash_it'
+let g:netrw_dirhist_9='/Users/rpatel/.berkshelf/vagrant/berkshelf-20130826-85259-84k9mp/apache2'
