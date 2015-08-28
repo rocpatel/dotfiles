@@ -14,7 +14,9 @@ export BASH_IT=$HOME/.bash_it
 
 # Lock and Load a custom theme file
 # location /.bash_it/themes/
-export BASH_IT_THEME='bobby'
+export BASH_IT_THEME='modern'
+
+export SCM_GIT_SHOW_DETAILS=true
 
 # Your place for hosting Git repos. I use this for private repos.
 export GIT_HOSTING='git@git.onehealth.com'
@@ -44,3 +46,7 @@ export TODO="t"
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="~/.chefdk/gem/ruby/2.1.0/bin:$PATH"

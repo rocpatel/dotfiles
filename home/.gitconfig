@@ -55,6 +55,7 @@
         br = branch
         co = checkout
         lg = log --stat -p
+        lg2 = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
         who = shortlog -s --
         graph = log --graph --oneline --all
         # on newer gits, --onelline abbreviates --pretty=oneline --abbrev-commit
