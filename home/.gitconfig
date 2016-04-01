@@ -3,7 +3,8 @@
 
 [user]
 	name = Rakesh Patel
-	email = rpatel@onehealth.com
+	email = roc@treelineinteractive.com
+
 [github]
 	user = rocpatel
 	token = f584693cd8b8fb9e500b02be27830099
@@ -14,19 +15,19 @@
   default = upstream
 
 [core]
-        excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
 	autocrlf = input
-        safecrlf = true
-        whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
-        editor=/usr/bin/vim -u NONE
+  safecrlf = true
+  whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+  editor=/usr/bin/vim -u NONE
 
 [color]
-        branch = auto
-        diff = auto
-        status = auto
-        log = auto
-        ui = auto
-        pager = true
+  branch = auto
+  diff = auto
+  status = auto
+  log = auto
+  ui = auto
+  pager = true
 
 [color "branch"]
         current = red reverse
@@ -74,8 +75,8 @@
     versiontag = 
 
 [gitflow "branch"]
-    develop = master
-    master = release
+    develop = develop
+    master = master
 
 [apply]
 	whitespace = strip

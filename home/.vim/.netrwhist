@@ -1,8 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/srv/cookbooks/or_kv-cookbook/.kitchen'
-let g:netrw_dirhist_2='/srv/cookbooks/or_accounts-cookbook/.git'
-let g:netrw_dirhist_3='/srv/cookbooks/or_vagrant-cookbook/.kitchen'
-let g:netrw_dirhist_4='/srv/cookbooks/or_restapi-cookbook/.kitchen'
-let g:netrw_dirhist_5='/srv/cookbooks/or_jenkins-cookbook/.kitchen'
-let g:netrw_dirhist_6='/srv/chef'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/srv/treeline/orion'
+let g:netrw_dirhist_2='/srv/treeline/orion/vendor'
+let g:netrw_dirhist_3='/srv/treeline/platform/deploy/orion_feature_environment/.git'

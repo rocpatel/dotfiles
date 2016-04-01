@@ -9,6 +9,9 @@ export PATH=$PATH:~/.gem/ruby/1.8/bin:/opt/nginx/sbin
 # Add ruby vendor bin directory to path
 export PATH=$PATH:/srv/vendor/ruby/bin:$HOME/bin
 
+# Add pipsi bin
+export PATH=$PATH:~/.local/bin
+
 # Path to the bash it configuration
 export BASH_IT=$HOME/.bash_it
 
@@ -50,3 +53,4 @@ source $BASH_IT/bash_it.sh
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="~/.chefdk/gem/ruby/2.1.0/bin:$PATH"
+eval "$(chef shell-init bash)"
