@@ -21,8 +21,9 @@ set softtabstop=2
 set shiftwidth=2
 set tabstop=2
 set autoindent
+set splitright
 " Use spaces instead of tabs
-set expandtab
+" set expandtab
 colorscheme molokai 
 set guifont=Inconsolata:h12
 set ignorecase

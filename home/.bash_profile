@@ -3,6 +3,8 @@
 # Load RVM, if you are using it
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 
+[[ -s $HOME/.bash_secrets ]] && source $HOME/.bash_secrets
+
 # Add rvm gems and nginx to the path
 export PATH=$PATH:~/.gem/ruby/1.8/bin:/opt/nginx/sbin
 
@@ -53,4 +55,10 @@ source $BASH_IT/bash_it.sh
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="~/.chefdk/gem/ruby/2.1.0/bin:$PATH"
-eval "$(chef shell-init bash)"
+eval "$(rbenv init -)"
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi

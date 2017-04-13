@@ -3,12 +3,15 @@
 
 [user]
 	name = Rakesh Patel
-	email = roc@treelineinteractive.com
+	email = rpatel@weedmaps.com
 
 [github]
 	user = rocpatel
-	token = f584693cd8b8fb9e500b02be27830099
-  email = roc@rocpatel.com
+  email = rpatel@weedmaps.com
+	org = GhostGroup
+
+[url "git@github.com:"]
+    insteadOf = https://github.com/
 
 [push]
   #Only Push Upstream for the Current Branch
@@ -16,7 +19,7 @@
 
 [core]
   excludesfile = ~/.gitignore
-	autocrlf = input
+	autocrlf = false
   safecrlf = true
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
   editor=/usr/bin/vim -u NONE
@@ -120,3 +123,8 @@
 # current version in the left pane, the merge result in the middle pane and the remote version in the right pane
         cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
         trustExitCode = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
